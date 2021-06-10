@@ -39,9 +39,9 @@ function App() {
     }).catch(err => console.error(err));
   }
 
-  // useEffect(() => {
-  //   initLine();
-  // }, []);
+  useEffect(() => {
+    initLine();
+  }, []);
 
   return (
     <div>
