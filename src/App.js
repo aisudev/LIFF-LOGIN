@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import liff from '@line/liff';
 import { useEffect, useState } from 'react';
+
+const liff = window.liff
 
 function App() {
 
